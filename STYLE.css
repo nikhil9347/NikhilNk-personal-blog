@@ -1,0 +1,468 @@
+/* Add a black background color to the top navigation */
+
+
+  @keyframes animate-path1 {
+      100% {
+          stroke-dashoffset: 180;
+      }
+  }
+  
+  @keyframes animate-path2 {
+      100% {
+          stroke-dashoffset: 140;
+      }
+  }
+  
+  @keyframes animate-path3 {
+      100% {
+          stroke-dashoffset: 90;
+      }
+  }
+  
+  @keyframes animate-path4 {
+      100% {
+          stroke-dashoffset: 50;
+      }
+  }
+  
+  @keyframes animate-bar {
+      100% {
+          stroke-dashoffset: -1;
+      }
+  }
+  
+  @keyframes showText {
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @keyframes animate {
+  
+      100% {
+          transform: scaleX(1);
+      }
+  }
+  
+  @keyframes slideRight {
+      0% {
+          transform: translateX(-100px);
+          opacity: 0;
+      }
+  
+      100% {
+          transform: translateX(0px);
+          opacity: 1;
+      }
+  }
+  
+  @keyframes slideTop {
+      0% {
+          transform: translateX(100px);
+          opacity: 0;
+      }
+  
+      100% {
+          transform: translateX(0px);
+          opacity: 1;
+      }
+  }
+  
+  @keyframes slideBottom {
+      0% {
+          transform: translateX(-100px);
+          opacity: 0;
+      }
+  
+      100% {
+          transform: translateX(0px);
+          opacity: 1;
+      }
+  }
+  
+  @keyframes slideUP {
+      0% {
+          transform: translateY(50px);
+          opacity: 0;
+      }
+  
+      100% {
+          transform: translateY(0px);
+          opacity: 1;
+      }
+  }
+  
+  .TXT p{
+
+    animation: slideUP 1s ease forwards;
+  }
+  .A88{
+    animation: slideTop 1s ease forwards;
+  }
+  
+.A44{
+  
+  animation: slideRight 1s ease forwards;
+  text-decoration: double;
+}
+.responsive{
+  width: 100%;
+    height: auto;
+    border-top-left-radius: 251px;
+    border-top-right-radius: 251px;
+    border-bottom-left-radius: 251px;
+    border-bottom-right-radius: 251px;
+}
+.topnav {
+    background-color: #333;
+    overflow: auto;
+    width:100%;
+    padding-right: 10px;
+    padding-left: 15px;
+    font-family:calbri;
+    
+    position:absolute;
+    
+  }
+  .XYZ h1{
+    text-align: center;
+    color: #5dae86;
+   
+  }
+
+  .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+ 
+    font-weight: 600;
+    color: white;
+    left: 0px;
+    animation: slideUP 1s ease forwards;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #202221;
+    animation: slideUP 3s ease forwards;
+    
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: aqua;
+    color: rgb(143, 28, 28);
+    
+  }
+  
+  /* Add a color to the active/current link 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    
+  }*/
+  
+  .A33{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1px;
+    animation:slideRight 1s ease forwards;
+    margin-top: 100px;
+  }
+  .A2 h1{
+    text-align: center;
+    justify-content: center;
+    color: #5dae86FA;
+  }
+  .container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+  }
+  .H33{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1px;
+   
+  }
+  img{
+    display: block;
+    margin-left: 500px;
+    margin-right: 25px;
+    
+    width: 500px;
+    border: 2px solid black;
+    height: auto;
+    
+    animation:slideTop 3s ease forwards;
+   
+  }
+.TXT p{
+  margin-top: 100px;
+  font-size: larger;
+border-radius: 5px;
+  color: rgb(233, 236, 236);
+  height: 100px;
+  border: 2px solid aqua;
+  justify-content: center;
+  width: 500px;
+  text-align: center;
+  padding-top: 20px;
+  top: 100%;
+  margin-left: 20px;
+  background-color: rgba(240, 255, 255, 0.151);
+
+  
+}
+  .TP h1{
+   
+    text-align: center;
+    justify-content: center;
+    color: #5dae86FA;
+  }
+  .Tp3 h1{
+    text-align: center;
+    justify-content: center;
+    color: #5dae86FA;
+  }
+  .Projects {
+    width:200px;
+    height: 190px;
+    border: 1px solid black;
+    padding-top: 30px;
+    
+    background-color: whitesmoke;
+    text-align: center;
+   margin-top: 50px;
+    border-radius: 10px;
+    
+  }
+  .Projects h1{
+    text-align: center;
+  }
+  .HighSchool{
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: whitesmoke;
+    display: flexbox;
+    border-radius: 10px;
+    animation:slideRight 1s ease forwards;
+    
+  }
+  .A33:hover{
+    transform: translateY(-2px);
+  }
+  .HighSchool:hover{
+    color:brown;
+    background-color: aqua;
+    box-shadow:0 0 20px aqua;
+    transform: translateY(2px);
+  }
+  .box:hover{
+    color:brown;
+    background-color:aqua;
+    transform: translateX(-2px);
+    box-shadow:0 0 20px aqua;
+  }
+  .B33:hover{
+    color:brown;
+    background-color:aqua;
+    transform: translateX(-2px);
+    box-shadow:0 0 20px aqua;
+  
+  }
+  .Hobbies:hover{
+    color:brown;
+    background-color:aqua;
+    box-shadow:0 0 20px aqua;
+    transform: translateY(-2px);
+  }
+  .Passion1:hover{
+
+    color:brown;
+    background-color:aqua;
+    transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow:0 0 20px aqua;
+  }
+  .container:hover{
+    color:brown;
+    background-color:aqua;
+    transform: translateY(-2px);
+    box-shadow:0 0 20px aqua;
+  }
+  .Projects:hover{
+    color:brown;
+    background-color:aqua;
+    box-shadow:0 0 20px aqua;
+    transform: translateY(-2px);
+  }
+  .box{
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    display: flexbox;
+    border-radius: 10px;
+    animation:slideRight 1s ease forwards;
+  }
+  .B33{
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    display: flexbox;
+    border-radius: 10px;
+    animation:slideRight 1s ease forwards;
+  }
+  .Hobbies{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 70px;
+    padding: 10px;
+    background-color: whitesmoke;
+    display: flexbox;
+    border-radius: 10px;
+    animation:slideRight 1s ease forwards;
+  }
+  .Passion1{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 70px;
+    padding: 10px;
+    background-color: whitesmoke;
+    display: flexbox;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    animation:slideRight 1s ease forwards;
+  }
+.flex-box{
+    display: flex;
+}
+
+  
+  .ALLBOX{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1px;
+    
+   
+  }
+  .TECH{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1px;
+    animation:slideRight 1s ease forwards;
+    margin-top: 10px;
+  }
+  .HoP{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1px;
+    animation:slideRight 1s ease forwards;
+
+  }
+
+
+  .h6{
+    text-align: center;
+    font-size: large;
+  }
+  .FT{
+    background-color: hsla(180, 5%, 77%, 0.363);
+    color:white;
+    text-align:center ;
+    display: block;
+    padding: 20px;
+    height: auto;
+    font-style: normal;
+    
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+  .FT img{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-left: 250px;
+  }
+ .fa-solid fa-envelope{
+  text-decoration: none;
+  color: aqua;
+  margin-top: 20px;
+ }
+ 
+ .fa-solid fa-address-book{
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+/*.topnav{
+    background-color: rgb(48, 132, 132);
+    
+}
+.container{
+    width: 100%;
+    height: 40px;
+    color: aqua;
+    background-color: black;
+}
+.container li{
+    background-color: black;
+
+}
+*/
+.S33{
+  margin-left: 500px;
+}
+
+
+html{
+    background-color: black;
+}
+.contact-list{
+  list-style: none;
+}
+#visitCounter{
+  color: #5dae86;
+  text-align: center;
+}
